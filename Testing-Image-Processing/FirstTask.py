@@ -8,9 +8,6 @@ from matplotlib import interactive
 
 #img = cv2.imread("C:\\Users\\Teo\\Desktop\\Testing-Image-Processing\\first_image.png")
 
-
-plt.figure(1)
-
 imageDir = "C:\\Users\\Teo\\Desktop\\Testing-Image-Processing\\images_training"
 imageFiles = os.listdir(imageDir)
 imageList = [] #this list will contain all the test images
@@ -26,12 +23,7 @@ def display_images(images, cmap=None):
 
     plt.show()
 
-interactive(True)
 display_images(imageList)
-
-plt.show()
-
-plt.figure(2)
 
 def color_filter(image):
     #convert to HLS to mask based on HLS
@@ -48,8 +40,7 @@ def color_filter(image):
 
 filtered_img = list(map(color_filter, imageList))
 display_images(filtered_img)
-plt.show()
-plt.figure(3)
+
 def roi(img):
     x = int(img.shape[1])
     y = int(img.shape[0])
@@ -68,14 +59,8 @@ def roi(img):
     masked_image = cv2.bitwise_and(img, mask)
     return masked_image
 
-
 roi_img = list(map(roi, filtered_img))
-
-plt.show()
-interactive(False)
 display_images(roi_img)
-
-
 
 def grayscale(img):
     return cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
@@ -86,7 +71,6 @@ canny_img = list(map(canny, roi_img))
 display_images(canny_img,cmap='gray')
 
 rightSlope, leftSlope, rightIntercept, leftIntercept = [], [], [], []
-
 
 def draw_lines(img, lines, thickness=5):
     global rightSlope, leftSlope, rightIntercept, leftIntercept
@@ -134,9 +118,6 @@ def draw_lines(img, lines, thickness=5):
 
 
 def hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap):
-    """
-    `img` should be the output of a Canny transform.
-    """
     lines = cv2.HoughLinesP(img, rho, theta, threshold, np.array([]), minLineLength=min_line_len,
                             maxLineGap=max_line_gap)
     line_img = np.zeros((img.shape[0], img.shape[1], 3), dtype=np.uint8)
@@ -157,6 +138,7 @@ def weightSum(input_set):
 result_img = list(map(weightSum, zip(hough_img, imageList)))
 display_images(result_img)
 
+#FOR VIDEOS"
 
 #def processImage(image):
  #   interest = roi(image)

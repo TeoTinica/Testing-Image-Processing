@@ -4,8 +4,6 @@
     <list default="true" id="2d5096c8-b9a4-42af-abcf-09e22f2b1645" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing-Image-Processing/FirstTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testing-Image-Processing/FirstTask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images_training/aaa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images_training/aaa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images_training/bbb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images_training/bbb.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/Testing-Image-Processing/FirstTask.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="117" column="53" lean-forward="true" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+              <caret line="153" column="50" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -47,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="543" />
     <option name="y" value="6" />
     <option name="width" value="702" />
@@ -145,10 +143,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17113096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2217262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,7 +176,7 @@
     <entry file="file://$PROJECT_DIR$/Testing-Image-Processing/FirstTask.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="117" column="53" lean-forward="true" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+          <caret line="153" column="50" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
